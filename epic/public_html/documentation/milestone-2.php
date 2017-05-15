@@ -25,6 +25,7 @@
 			<img src="images/wireframes-mobile.png" alt="mobile wireframe"/>
 			<h3>Desktop</h3>
 			<img src="images/wireframe-desktop.jpg" alt="desktop wireframe"/>
+			<p>Wireframes were created using Adobe XD.</p>
 		</main>
 
 	</body>
