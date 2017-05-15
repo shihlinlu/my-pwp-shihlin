@@ -24,7 +24,7 @@
 			<h3>Mobile</h3>
 			<img src="images/wireframes-mobile.png" alt="mobile wireframe"/>
 			<h3>Desktop</h3>
-			<img src="images/wireframe-desktop.png" alt="desktop wireframe"/>
+			<img src="images/wireframe-desktop.jpg" alt="desktop wireframe"/>
 		</main>
 
 	</body>
