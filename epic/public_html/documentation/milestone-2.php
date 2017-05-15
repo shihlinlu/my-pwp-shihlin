@@ -17,9 +17,12 @@
 			<h3>Section 2: Portfolio</h3>
 			<p>A gallery of past and current software & web projects will be displayed here.</p>
 			<h3>Section 3: Writing</h3>
-			<p>A link to my blog and other notable writing posts will be shown here. I've included this section because I enjoy writing about certain topics such as vegan nutrition research, running, and sustainability.</p>
+			<p>A link to my blog and other notable writing posts will be shown here. I've included this section because I enjoy writing about certain topics that are highly important to me such as vegan nutrition research, running, and sustainability.</p>
 			<h3>Section 4: Contact</h3>
 			<p>A contact form and social media links will be shown (LinkedIn and Github)</p>
+			<h2>Wireframes</h2>
+			<h3>Mobile</h3>
+			<img src="images/wireframes-mobile.png" alt="wireframes-mobile"/>
 		</main>
 
 	</body>
