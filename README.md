@@ -7,7 +7,7 @@ regarding your chosen career trajectory and the interests and needs of the end-u
 
 Your HTML looks great, and your project is set up according to specifications. Nice work. Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin work on [Milestone 2&alpha;](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/).
 
-# Milestone 2&alpha; Feedback
+## Milestone 2&alpha; Feedback
 
 Great job clearly outlining each section of your PWP, and matching the wireframe accordingly. I like the clean layout, and logical structure. I also like that you'll be showcasing some of your previous blog entries and articles. I think that'll show potential employers/clients that you're more than just a developer.
 
@@ -15,4 +15,4 @@ According to [W3 Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbootc
 
 Overall your html is good and I think your PWP is going to come out looking great.
 
-## grade Tier IV - Great job! https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+grade Tier IV - Great job! https://bootcamp-coders.cnm.edu/projects/personal/rubric/
