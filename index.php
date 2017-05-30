@@ -133,5 +133,8 @@
 			</div>
 		</section>
 
+		<!-- Scrolling Nav JavaScript -->
+		<script src="js/scrolling-nav.js"></script>
+
 	</body>
 </html>
