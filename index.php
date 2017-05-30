@@ -48,18 +48,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand-page-scroll" href="#page-top">Shihlin Lu</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav navbar-right">
 						<!-- Hidden list included to remove active class from the about link when scrolled up past the about section -->
-						<li class="hidden">
-							<a class="page-scroll" href="#page-top"></a>
-						</li>
 						<li>
 							<a class="page-scroll" href="#about">About</a>
 						</li>
