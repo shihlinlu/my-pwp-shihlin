@@ -25,7 +25,7 @@
 		<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> -->
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/" type="text/css"/>
+		<link rel="stylesheet" href="/public_html/css/style.css" type="text/css"/>
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
