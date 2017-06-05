@@ -29,6 +29,9 @@
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet" type='text/css'>
 
+		<!-- Google Font 2 -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+
 		<!-- Particleground -->
 		<script type='text/javascript' src='../jquery.particleground.js'></script>
 		<script type='text/javascript' src='js/demo.js'></script>
@@ -37,33 +40,27 @@
 
 	<body>
 		<header>
-		<!-- Navigation Bar -->
-		<nav class="navbar navbar-default">
-			<div class="container">
-				<div class="row">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header page-scroll">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+			<!-- Logo -->
+			<div class="row">
+				<a class="logo" href="#">S/L</a>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="navbar-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#About">About</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Writing</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div><!-- /.navbar collapse -->
+				<!-- Mobile -->
+				<div class="mobile-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
+
+				<!-- Navigation Bar -->
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#writing">Writing</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav><!-- /.navigation bar -->
 			</div>
-		</nav>
 		</header>
 
 		<div id="particles">
@@ -73,25 +70,47 @@
 			</div>
 		</div>
 
+		<!-- Mouse scroll -->
+		<div class="mouse">
+			<span></span>
+		</div>
+
 		<!-- About Section -->
 		<section>
-			<div class="homepage-about" id="about">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="jumbotron">
-							<h1>About</h1>
-							<p>About Shihlin</p>
-						</div>
-					</div>
-				</div>
+			<div class="row content">
+				<h1 class="about">About</h1>
+				<p>About</p>
 			</div>
 		</section>
 
+
+
 		<!-- Portfolio Section -->
+		<section>
+			<div class="row content">
+				<h1 class="portfolio">Portfolio</h1>
+				<p>About</p>
+			</div>
+		</section>
+
 
 		<!-- Writing Section -->
+		<section>
+			<div class="row content">
+				<h1 class="writing">Writing</h1>
+				<p>About</p>
+			</div>
+		</section>
+
+
 
 		<!-- Contact Section -->
+		<section>
+			<div class="row content">
+				<h1 class="contact">Contact</h1>
+				<p>About</p>
+			</div>
+		</section>
 
 
 	</body>
