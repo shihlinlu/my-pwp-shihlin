@@ -1,8 +1,7 @@
 .DS_Store
 /.idea
 /vendor
-/node_modules
+/node_modules/*
 /mail-config.php
-.idea/misc.xml
-.idea/startbootstrap-scrolling-nav.iml
-
+Gruntfile.js
+package.json
