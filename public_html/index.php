@@ -22,7 +22,7 @@
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
 		<!-- Google Font -->
-		<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet" type='text/css'>
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="/public_html/css/style.css" type="text/css"/>
@@ -33,7 +33,8 @@
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<script type='text/javascript' src='js/jquery.particleground.js'></script>
+		<!-- Particleground.js -->
+		<script type='text/javascript' src='../jquery.particleground.js'></script>
 		<script type='text/javascript' src='js/demo.js'></script>
 
 		<title>Shihlin Lu</title>
@@ -69,14 +70,14 @@
 						</div>
 					</div>
 				</nav>
-				<div id="particles">
-					<div id="intro">
-						<h1>Shihlin Lu</h1>
-					</div>
-				</div><!-- /.particles intro -->
-
-
 			</header>
+			<div id="particles">
+				<div id="intro">
+					<h1>Shihlin Lu</h1>
+					<p>Software + Web Development</p>
+
+				</div>
+			</div>
 
 			<!-- Introduction section -->
 
