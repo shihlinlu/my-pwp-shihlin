@@ -109,24 +109,22 @@
 			<p>Shihlin is awesome.</p>
 		</section><!-- /.cd-section -->
 
-		<!-- About Section -->
+		<!-- Portfolio Section -->
 		<section id="portfolio" class="cd-section">
 			<h1>Portfolio</h1>
 			<p>Shihlin's brilliant work.</p>
 		</section>
 
-		<!-- Portfolio Section -->
+		<!-- Writing Section -->
 		<section id="writing" class="cd-section">
 			<h1>Writing</h1>
 			<p>Shihlin also writes about various topics.</p>
 		</section>
 
-		<!-- Writing Section -->
+		<!-- Contact Section -->
 		<section id="contact" class="cd-section">
 			<h1>Contact</h1>
 			<p>How to contact Shihlin.</p>
 		</section>
-
-
 	</body>
 </html>
