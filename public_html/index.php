@@ -41,14 +41,30 @@
 			<!-- HEADER -->
 			<header>
 				<!-- NAVIGATION BAR -->
-				<nav class="navigation">
+				<div class="navigation">
 					<div class="group active" data-page-id="homepage-page">
-						<ul id="navigation">
-							<li></li>
+						<ul>
+							<li id="main-nav">
+								<a href="#homepage-introduction" class="active"></a>
+							</li>
+							<li id="about-nav">
+								<a href="#homepage-about"></a>
+							</li>
+							<li id="portfolio-nav">
+								<a href="#homepage-portfolio"></a>
+							</li>
+							<li id="writing-nav">
+								<a href="#homepage-writing"></a>
+							</li>
+							<li id="contact-nav">
+								<a href="#homepage-contact"></a>
+							</li>
 						</ul>
 					</div>
+				</div><!-- /.navigation bar -->
 
-				</nav>
+
+
 			</header>
 		</div>
 

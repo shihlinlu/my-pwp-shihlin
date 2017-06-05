@@ -1,0 +1,40 @@
+.navigation {
+	display:block;
+}
+
+header .navigation {
+	position: relative;
+	text-transform: uppercase;
+	font-family: Futura;
+	text-align: center;
+	padding-top: 55px;
+	padding-left: 90px;
+	padding-right: 100px;
+	z-index: -1;
+
+}
+
+#main-nav {
+	opacity: 1;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#about-nav {
+	opacity: 1;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#portfolio-nav {
+	opacity: 1;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#writing-nav {
+	opacity: 1;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#contact-nav {
+	opacity: 1;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
