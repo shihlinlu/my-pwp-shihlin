@@ -2,7 +2,6 @@
 <html lang="en" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Particleground demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Latest compiled and minifed CSS -->
@@ -33,9 +32,11 @@
 		<!-- Particleground -->
 		<script type='text/javascript' src='../jquery.particleground.js'></script>
 		<script type='text/javascript' src='js/demo.js'></script>
+		<title>Shihlin Lu</title>
 	</head>
 
 	<body>
+		<header>
 		<!-- Navigation Bar -->
 		<nav class="navbar navbar-default">
 			<div class="container">
@@ -54,7 +55,7 @@
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
+							<li><a href="#About">About</a></li>
 							<li><a href="#">Portfolio</a></li>
 							<li><a href="#">Writing</a></li>
 							<li><a href="#">Contact</a></li>
@@ -63,14 +64,34 @@
 				</div>
 			</div>
 		</nav>
+		</header>
 
 		<div id="particles">
 			<div id="intro">
 				<h1>Shihlin Lu</h1>
 				<p>Software + Web Development</p>
-
 			</div>
 		</div>
+
+		<!-- About Section -->
+		<section>
+			<div class="homepage-about" id="about">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="jumbotron">
+							<h1>About</h1>
+							<p>About Shihlin</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Portfolio Section -->
+
+		<!-- Writing Section -->
+
+		<!-- Contact Section -->
 
 
 	</body>
