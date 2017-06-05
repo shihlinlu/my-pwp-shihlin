@@ -17,11 +17,11 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-		<!-- Latest compiled and minifed JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+
+		<!-- Latest compiled and minifed JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" />
@@ -33,34 +33,18 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
 
 		<!-- Particleground -->
-		<script type='text/javascript' src='../jquery.particleground.js'></script>
+		<script type='text/javascript' src='js/jquery.particleground.js'></script>
 		<script type='text/javascript' src='js/demo.js'></script>
 		<title>Shihlin Lu</title>
 	</head>
 
 	<body>
 		<header>
-			<!-- Logo -->
-			<div class="row">
-				<a class="logo" href="#">S/L</a>
-
 				<!-- Mobile -->
-				<div class="mobile-toggle">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
+
 
 				<!-- Navigation Bar -->
-				<nav>
-					<ul>
-						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#writing">Writing</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav><!-- /.navigation bar -->
-			</div>
+
 		</header>
 
 		<div id="particles">
@@ -70,10 +54,7 @@
 			</div>
 		</div>
 
-		<!-- Mouse scroll -->
-		<div class="mouse">
-			<span></span>
-		</div>
+
 
 		<!-- About Section -->
 		<section>
