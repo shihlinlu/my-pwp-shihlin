@@ -22,7 +22,7 @@
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
 		<!-- Google Font -->
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> -->
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/" type="text/css"/>
@@ -33,40 +33,61 @@
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+
+
 		<title>Shihlin Lu</title>
 
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<!-- HEADER -->
 			<header>
-				<!-- NAVIGATION BAR -->
-				<div class="navigation">
-					<div class="group active" data-page-id="homepage-page">
-						<ul>
-							<li id="main-nav">
-								<a href="#homepage-introduction" class="active"></a>
-							</li>
-							<li id="about-nav">
-								<a href="#homepage-about"></a>
-							</li>
-							<li id="portfolio-nav">
-								<a href="#homepage-portfolio"></a>
-							</li>
-							<li id="writing-nav">
-								<a href="#homepage-writing"></a>
-							</li>
-							<li id="contact-nav">
-								<a href="#homepage-contact"></a>
-							</li>
-						</ul>
+				<!-- Navigation Bar -->
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<div class="row">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header page-scroll">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Writing</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</div><!-- /.navbar collapse -->
+						</div>
 					</div>
-				</div><!-- /.navigation bar -->
+				</nav>
+				<div id="particles"></div>
+				<section class="intro">
 
-
+				</section>
 
 			</header>
-		</div>
+
+			<!-- Introduction section -->
+
+			<!-- About section -->
+
+			<!-- Portfolio section -->
+
+			<!-- Writing section -->
+
+			<!-- Contact section -->
+		</div><!-- /.sfooter-content -->
+
+
+			<!-- Introduction Section -->
 
 		<!-- FOOTER -->
 		<footer class="bg-info text-center">
