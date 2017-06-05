@@ -30,110 +30,37 @@
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
-		<!-- jQuery Easing v1.4.1
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js" type="text/javascript"></script> -->
-
-		<!-- Scrolling Nav JavaScript -->
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/scrolling-nav.js"></script>
-
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+		<title>Shihlin Lu</title>
+
 	</head>
-	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<!-- HEADER -->
+			<header>
+				<!-- NAVIGATION BAR -->
+				<nav class="navigation">
+					<div class="group active" data-page-id="homepage-page">
+						<ul id="navigation">
+							<li></li>
+						</ul>
+					</div>
 
-		<!-- Navigation bar -->
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand-page-scroll" href="#page-top">Shihlin Lu</a>
-				</div>
+				</nav>
+			</header>
+		</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<!-- Hidden list included to remove active class from the about link when scrolled up past the about section -->
-						<li>
-							<a class="page-scroll" href="#about">About</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#portfolio">Portfolio</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#writing">Writing</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div><!--./navbar-collapse -->
-			</div><!--/.container -->
-		</nav>
-
-		<!-- Welcome Section -->
-		<section id="welcome" class="welcome-section">
+		<!-- FOOTER -->
+		<footer class="bg-info text-center">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
-						<h1>Shihlin Lu</h1>
-						<p>Software Developer</p>
+					<div class="col-md-4 col-md-offset-4">
+						<p>&copy; 2017 Shihlin Lu   </p>
 					</div>
 				</div>
 			</div>
-		</section><!--/.welcome-section -->
-
-		<!-- About Section -->
-		<section id="about" class="about-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h1>About</h1>
-					</div>
-				</div>
-			</div>
-		</section><!--./about-section -->
-
-		<!-- Portfolio Section -->
-		<section id="portfolio" class="portfolio-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h1>Portfolio</h1>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Writing Section -->
-		<section id="writing" class="writing-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h1>Writing</h1>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Contact Section -->
-		<section id="contact" class="contact-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h1>Contact</h1>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-
+		</footer><!--- /.footer -->
 	</body>
 </html>
