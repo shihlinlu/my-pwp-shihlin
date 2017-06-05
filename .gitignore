@@ -3,3 +3,6 @@
 /vendor
 /node_modules
 /mail-config.php
+.idea/misc.xml
+.idea/startbootstrap-scrolling-nav.iml
+
