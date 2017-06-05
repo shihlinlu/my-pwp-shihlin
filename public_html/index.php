@@ -89,11 +89,12 @@
 		</header>
 
 		<div id="particles">
-			<div id="intro">
-				<h1>Shihlin Lu</h1>
-				<p>Software + Web Development</p>
-				<a href="about" class="cd-scroll-down cd-img-replace">Scroll Down</a>
-			</div>
+			<section id="intro">
+				<div id="intro">
+					<h1>Shihlin Lu</h1>
+					<p>Software + Web Development</p>
+				</div>
+			</section>
 		</div>
 
 
@@ -106,12 +107,6 @@
 		<section id="about" class="cd-section">
 			<h1>About</h1>
 			<p>Shihlin is awesome.</p>
-		</section><!-- /.cd-section -->
-
-		<!-- Portfolio Section -->
-		<section id="portfolio" class="cd-section">
-		<h1>About</h1>
-		<p>Shihlin is awesome.</p>
 		</section><!-- /.cd-section -->
 
 		<!-- About Section -->
