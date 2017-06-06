@@ -181,6 +181,13 @@
 				<button class="btn btn-info" type="submit">Submit</button>
 			</form>
 			<!-- END CONTACT FORM-->
+
+			<!-- EMPTY FORM OUTPUT AREA -->
+			<div class="row">
+				<div class="col-md-6">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</section>
 
 	</body>

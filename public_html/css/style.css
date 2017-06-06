@@ -527,3 +527,12 @@ p {
 		height: 4px;
 	}
 }
+
+/** Contact form style **/
+#contact-form {
+	align-items: center;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 75px;
+	padding-bottom: 45px;
+}
