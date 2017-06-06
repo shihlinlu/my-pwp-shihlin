@@ -20,6 +20,17 @@
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -125,6 +136,52 @@
 		<section id="contact" class="cd-section">
 			<h1>Contact</h1>
 			<p>How to contact Shihlin.</p>
+			<!-- BEGIN CONTACT FORM -->
+			<form id="contact-form" method="POST" action="php/mailer.php">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-user"></i>
+						</div>
+						<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-envelope"></i>
+						</div>
+						<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-pencil"></i>
+						</div>
+						<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-comment"></i>
+						</div>
+						<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+					</div>
+				</div>
+				<!-- Google reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="6LduTSQUAAAAAK1T5Wr008EwURLbhCXxAwO3j_F9"></div>
+
+				<button class="btn btn-default" type="reset">Reset</button>
+				<button class="btn btn-info" type="submit">Submit</button>
+			</form>
+			<!-- END CONTACT FORM-->
 		</section>
+
 	</body>
 </html>
