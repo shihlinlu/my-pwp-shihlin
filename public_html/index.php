@@ -17,8 +17,8 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-		<!-- jQuery v3.0 -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+		<!-- jQuery v3.0
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script> -->
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
@@ -117,24 +117,32 @@
 
 		<!-- About Section -->
 		<section id="about" class="cd-section">
-			<p>Shihlin is awesome.</p>
+			<div class="col-md-4">
+				<h1>About</h1>
+			</div>
 		</section><!-- /.cd-section -->
 
 		<!-- Portfolio Section -->
 		<section id="portfolio" class="cd-section">
-			<h1>Portfolio</h1>
-			<p>Shihlin's brilliant work.</p>
+			<div class="col-md-4">
+				<h1>Portfolio</h1>
+			</div>
 		</section>
 
 		<!-- Writing Section -->
 		<section id="writing" class="cd-section">
-			<h1>Writing</h1>
-			<p>Shihlin also writes about various topics.</p>
+			<div class="col-md-4">
+				<h1>Writing</h1>
+			</div>
 		</section>
 
 		<!-- Contact Section -->
 		<section id="contact" class="cd-section">
-			<h1>Contact</h1>
+			<div class="row">
+				<div class="col-md-offset-5 col-md-6">
+					<h1>Contact</h1>
+				</div>
+			</div>
 			<!-- BEGIN CONTACT FORM -->
 			<form id="contact-form" method="POST" action="/php/mailer.php">
 				<div class="form-group">

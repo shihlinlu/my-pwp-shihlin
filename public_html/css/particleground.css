@@ -35,6 +35,7 @@ body {
 }
 
 
+/** Adjust media queries **/
 @media only screen and (max-width: 1000px) {
 	h1 {
 		font-size: 70px;
