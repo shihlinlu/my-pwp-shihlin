@@ -52,15 +52,17 @@
 		<!-- Google Font 3
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'> -->
 
-		<!-- Particleground -->
-		<script type='text/javascript' src='js/jquery.particleground.js'></script>
-		<script type='text/javascript' src='js/demo.js'></script>
-
 		<!-- Modernizr.js -->
 		<script type='text/javascript' src="js/modernizr.js"></script>
 
 		<!-- Resource jQuery -->
 		<script type='text/javascript' src="js/main.js"></script>
+
+		<!-- Particleground -->
+		<script type='text/javascript' src='js/jquery.particleground.js'></script>
+		<script type='text/javascript' src='js/demo.js'></script>
+
+
 
 		<title>Shihlin Lu</title>
 	</head>
@@ -109,7 +111,7 @@
 		<!-- Particleground is contained here -->
 		<section id="section1" class="cd-section">
 			<div id="intro">
-				<a class="intro-name" href="http://fontmeme.com/fonts/anurati-font/"><img src="http://fontmeme.com/permalink/170607/e4b3e880c2ecac6feb5b66a94805562b.png" alt="shihlin-intro-name"></a>
+				<img id="intro-font" src="http://fontmeme.com/permalink/170607/e4b3e880c2ecac6feb5b66a94805562b.png" alt="shihlin-intro-name">
 			</div>
 		</section><!-- cd-section -->
 

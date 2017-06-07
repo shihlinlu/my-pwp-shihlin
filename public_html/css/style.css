@@ -360,9 +360,11 @@ Main components
 	}
 }
 
-/** Shihlin - name **/
-.intro-name {
+img[alt="shihlin-intro-name"] {
 	border: 0;
 }
 
+#contact-form{
+	padding: 40%;
+}
 
