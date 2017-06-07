@@ -4,7 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-	particleground(document.getElementById('particles'), {
+	particleground(document.getElementById('section1'), {
 		dotColor: '#5cbdaa',
 		lineColor: '#5cbdaa'
 	});

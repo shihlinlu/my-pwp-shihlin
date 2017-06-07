@@ -267,10 +267,10 @@
 				if (orientationSupport && !desktop) {
 					// Map tiltX range [-30,30] to range [0,winW]
 					var ratioX = (winW - 0) / (30 - -30);
-					pointerX = (tiltX - -30) * ratioX + 0;
+					pointerX = (tiltX - -30) * ratioX;
 					// Map tiltY range [-30,30] to range [0,winH]
 					var ratioY = (winH - 0) / (30 - -30);
-					pointerY = (tiltY - -30) * ratioY + 0;
+					pointerY = (tiltY - -30) * ratioY;
 				} else {
 					pointerX = mouseX;
 					pointerY = mouseY;

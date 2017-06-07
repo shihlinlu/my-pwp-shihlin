@@ -35,16 +35,22 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- CSS Reset -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reset.css"/>
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style.css"/>
 
-		<!-- Google Font -->
+		<!-- Particleground CSS -->
+		<link rel="stylesheet" href="css/particleground.css"/>
+
+		<!-- Google Font 1-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+
+		<!-- Google Font 2-->
 		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet" type='text/css'>
 
-		<!-- Google Font 2 -->
-		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+		<!-- Google Font 3
+		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'> -->
 
 		<!-- Particleground -->
 		<script type='text/javascript' src='js/jquery.particleground.js'></script>
@@ -65,7 +71,7 @@
 			<nav id="cd-vertical-nav">
 				<ul>
 					<li>
-						<a href="#intro" data-number="1">
+						<a href="#section1" data-number="1">
 							<span class="cd-dot"></span>
 							<span class="cd-label">Introduction</span>
 						</a>
@@ -89,7 +95,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#contact" data-number="1" class="is-selected">
+						<a href="#contact" data-number="5" class="is-selected">
 							<span class="cd-dot"></span>
 							<span class="cd-label">Contact</span>
 						</a>
@@ -99,24 +105,16 @@
 			<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 		</header>
 
-		<div id="particles">
-			<section id="intro">
-				<div id="intro">
-					<h1>Shihlin Lu</h1>
-					<p>Software + Web Development</p>
-				</div>
-			</section>
-		</div>
-
-
-		<!-- <section id="intro" class="cd-section">
-			<h1>Shihlin Lu</h1>
-			<a href="about" class="cd-scroll-down cd-img-replace">Scroll Down</a>
-		</section><!-- /.cd-section -->
+		<!-- Intro Section -->
+		<!-- Particleground is contained here -->
+		<section id="section1" class="cd-section">
+			<div id="intro">
+				<a class="intro-name" href="http://fontmeme.com/fonts/anurati-font/"><img src="http://fontmeme.com/permalink/170607/e4b3e880c2ecac6feb5b66a94805562b.png" alt="shihlin-intro-name"></a>
+			</div>
+		</section><!-- cd-section -->
 
 		<!-- About Section -->
 		<section id="about" class="cd-section">
-			<h1>About</h1>
 			<p>Shihlin is awesome.</p>
 		</section><!-- /.cd-section -->
 
@@ -135,7 +133,6 @@
 		<!-- Contact Section -->
 		<section id="contact" class="cd-section">
 			<h1>Contact</h1>
-			<p>How to contact Shihlin.</p>
 			<!-- BEGIN CONTACT FORM -->
 			<form id="contact-form" method="POST" action="/php/mailer.php">
 				<div class="form-group">
@@ -171,7 +168,7 @@
 						<div class="input-group-addon">
 							<i class="fa fa-comment"></i>
 						</div>
-						<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+						<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
 					</div>
 				</div>
 				<!-- Google reCAPTCHA -->
