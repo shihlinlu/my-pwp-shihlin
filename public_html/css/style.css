@@ -55,13 +55,15 @@ Main components
 .cd-section {
 	min-height: 100%;
 	position: relative;
-	padding: 2em 0;
+	padding: 15px;
 }
 /*need to remove background color on section 1; keep same background color for odd */
 
 /** purple **/
 #about {
 	background-color: #3e3947;
+	padding-top: 15%;
+	text-align: center;
 }
 
 #about p {
@@ -70,6 +72,7 @@ Main components
 /** pink **/
 #portfolio {
 	background-color: #745360;
+	text-align: center;
 }
 #portfolio p {
 	color: #bda3ad;
@@ -78,6 +81,7 @@ Main components
 /** purple **/
 #writing {
 	background-color: #3e3947;
+	text-align: center;
 }
 #writing p {
 	color: #898099;
@@ -90,10 +94,6 @@ Main components
 	color: #bda3ad;
 }
 
-#about {
-	padding-top: 25%;
-	text-align: center;
-}
 /**
 .cd-section h1, .cd-section p {
 	position: absolute;
@@ -121,17 +121,21 @@ Main components
 .cd-section p {
 	line-height: 1.6;
 }
+
+/** Need to adjust later
 @media only screen and (min-width: 768px) {
 	.cd-section h1 {
 		font-size: 30px;
 		font-size: 1.875rem;
-	}
+	}**/
+/** Need to adjust later
+
 	.cd-section p {
 		font-size: 20px;
 		font-size: 1.25rem;
 		line-height: 2;
 	}
-}
+}**/
 
 .cd-scroll-down {
 	position: absolute;
@@ -375,7 +379,9 @@ img[alt="shihlin-intro-name"] {
 	padding: 15%;
 }
 
-#main-photo{
+.img-circle {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	width: 300px;
-	height:300px;
+	height: 400px;
 }

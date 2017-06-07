@@ -117,27 +117,37 @@
 
 		<!-- About Section -->
 		<section id="about" class="cd-section">
-			<div class="col-sm">
-				<img id="main-photo" class="img-circle" src="images/shihlin_photo.jpg" alt="shihlin-photo">
-				<h1>About</h1>
-				<h3>Shihlin is a full stack software and web developer.</h3>
-				<p>Sustainability is one of Shihlin's passions.</p>
+			<div class="row">
+				<div class="col-sm">
+					<h1>About</h1>
+					<h4>Shihlin is a software and web developer focused on sustainable solutions.</h4>
+					<h4>For the past few years, Shihlin has worked in the energy efficiency and research industries to contribute to the advancement of high-performance buildings. In addition, her desire to merge her passion for sustainability with technology led her to learn full stack software development.</h4>
+					<h4>Ranging from Raspberry Pi projects to robotics and to energy dashboards, Shihlin is excited to continue creating beautiful, data-driven applications.</h4>
+				</div>
 			</div>
 		</section><!-- /.cd-section -->
 
 		<!-- Portfolio Section -->
 		<section id="portfolio" class="cd-section">
-			<div class="col-md-4">
-				<h1>Portfolio</h1>
+			<div class="row">
+				<div class="col-sm">
+					<h1>Portfolio</h1>
+					<img class="img-circle" src="images/pi-mirror.JPG" alt="pi-mirror">
+					<h2>Pi Mirror</h2>
+					<h4>Powered by Raspberry Pi, this smart mirror is a centralized information hub for air quality data, weather, and other customizable modules.</h4>
+					<h4>Launching Soon: 6/14/17</h4>
+				</div>
 			</div>
-		</section>
+		</section><!-- /.cd-section -->
 
 		<!-- Writing Section -->
 		<section id="writing" class="cd-section">
-			<div class="col-md-4">
-				<h1>Writing</h1>
+			<div class="row">
+				<div class="col-sm">
+					<h1>Writing</h1>
+				</div>
 			</div>
-		</section>
+		</section><!-- /.cd-section -->
 
 		<!-- Contact Section -->
 		<section id="contact" class="cd-section">
