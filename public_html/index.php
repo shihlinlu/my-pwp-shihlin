@@ -117,8 +117,11 @@
 
 		<!-- About Section -->
 		<section id="about" class="cd-section">
-			<div class="col-md-4">
+			<div class="col-sm">
+				<img id="main-photo" class="img-circle" src="images/shihlin_photo.jpg" alt="shihlin-photo">
 				<h1>About</h1>
+				<h3>Shihlin is a full stack software and web developer.</h3>
+				<p>Sustainability is one of Shihlin's passions.</p>
 			</div>
 		</section><!-- /.cd-section -->
 
