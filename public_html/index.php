@@ -143,8 +143,11 @@
 		<!-- Writing Section -->
 		<section id="writing" class="cd-section">
 			<div class="row">
-				<div class="col-sm">
-					<h1>Writing</h1>
+				<h1>Writing</h1>
+				<div class="col md 6">
+					<img class="img-circle" src="images/data-center.png" alt="data-center">
+					<h2>Data Center Efficiency Case Study</h2>
+					<button class="btn btn-info"><a href="http://www.vibrantcy.org/blog/2016/7/19/data-center-efficiency-case-studies">Read</button>
 				</div>
 			</div>
 		</section><!-- /.cd-section -->
