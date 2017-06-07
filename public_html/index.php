@@ -137,7 +137,7 @@
 			<h1>Contact</h1>
 			<p>How to contact Shihlin.</p>
 			<!-- BEGIN CONTACT FORM -->
-			<form id="contact-form" method="POST" action="php/mailer.php">
+			<form id="contact-form" method="POST" action="/php/mailer.php">
 				<div class="form-group">
 					<label for="name">Name</label>
 					<div class="input-group">
