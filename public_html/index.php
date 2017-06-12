@@ -34,14 +34,8 @@
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- CSS Reset -->
-		<link rel="stylesheet" href="css/reset.css"/>
-
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css"/>
-
-		<!-- Particleground CSS -->
-		<link rel="stylesheet" href="css/particleground.css"/>
 
 		<!-- Google Font 1-->
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
@@ -57,12 +51,6 @@
 
 		<!-- Resource jQuery -->
 		<script type='text/javascript' src="js/main.js"></script>
-
-		<!-- Particleground -->
-		<script type='text/javascript' src='js/jquery.particleground.js'></script>
-		<script type='text/javascript' src='js/demo.js'></script>
-
-
 
 		<title>Shihlin Lu</title>
 	</head>
@@ -160,7 +148,7 @@
 				</div>
 			</div>
 			<!-- BEGIN CONTACT FORM -->
-			<form id="contact-form" method="POST" action="/php/mailer.php">
+			<form id="contact-form" method="POST" action="/public_html/php/mailer.php">
 				<div class="form-group">
 					<label for="name">Name</label>
 					<div class="input-group">
