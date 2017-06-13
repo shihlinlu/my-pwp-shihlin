@@ -17,8 +17,8 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-		<!-- jQuery v3.0
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script> -->
+		<!-- jQuery v3.0 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
@@ -34,184 +34,252 @@
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- CSS Reset -->
-		<link rel="stylesheet" href="css/reset.css"/>
-
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css"/>
 
-		<!-- Particleground CSS -->
-		<link rel="stylesheet" href="css/particleground.css"/>
-
 		<!-- Google Font 1-->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 
 		<!-- Google Font 2-->
 		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet" type='text/css'>
 
-		<!-- Google Font 3
-		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'> -->
+		<!-- Google Font 3 -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
 
-		<!-- Modernizr.js -->
-		<script type='text/javascript' src="js/modernizr.js"></script>
+		<link href="https://fontmeme.com/fonts/anurati-font/" rel="stylesheet" type="text/css">
 
-		<!-- Resource jQuery -->
-		<script type='text/javascript' src="js/main.js"></script>
+		<!-- Font awesome animation -->
+		<link rel="stylesheet" href="css/font-awesome-animation.min.css">
 
-		<!-- Particleground -->
-		<script type='text/javascript' src='js/jquery.particleground.js'></script>
-		<script type='text/javascript' src='js/demo.js'></script>
+		<!-- One-page scroll stylesheet-->
+		<link rel="stylesheet" href="css/onepage-scroll.css">
 
+		<!-- theme stylesheet-->
+		<link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
 
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Javascript files-->
+		<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+		<script src="js/jquery.onepage-scroll.js"></script>
+		<script src="js/front.js"></script>
 
 		<title>Shihlin Lu</title>
 	</head>
 
 	<body>
-		<header>
-				<!-- Navigation Bar -->
-			<nav id="cd-vertical-nav">
-				<ul>
-					<li>
-						<a href="#section1" data-number="1">
-							<span class="cd-dot"></span>
-							<span class="cd-label">Introduction</span>
-						</a>
-					</li>
-					<li>
-						<a href="#about" data-number="2">
-							<span class="cd-dot"></span>
-							<span class="cd-label">About</span>
-						</a>
-					</li>
-					<li>
-						<a href="#portfolio" data-number="3">
-							<span class="cd-dot"></span>
-							<span class="cd-label">Portfolio</span>
-						</a>
-					</li>
-					<li>
-						<a href="#writing" data-number="4">
-							<span class="cd-dot"></span>
-							<span class="cd-label">Writing</span>
-						</a>
-					</li>
-					<li>
-						<a href="#contact" data-number="5" class="is-selected">
-							<span class="cd-dot"></span>
-							<span class="cd-label">Contact</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
-		</header>
-
-		<!-- Intro Section -->
-		<!-- Particleground is contained here -->
-		<section id="section1" class="cd-section">
-			<div id="intro">
-				<img id="intro-font" src="http://fontmeme.com/permalink/170607/e4b3e880c2ecac6feb5b66a94805562b.png" alt="shihlin-intro-name">
-			</div>
-		</section><!-- cd-section -->
-
-		<!-- About Section -->
-		<section id="about" class="cd-section">
-			<div class="row">
-				<div class="col-sm">
-					<h1>About</h1>
-					<h4>Shihlin is a software and web developer focused on sustainable solutions.</h4>
-					<h4>For the past few years, Shihlin has worked in the energy efficiency and research industries to contribute to the advancement of high-performance buildings. In addition, her desire to merge her passion for sustainability with technology led her to learn full stack software development.</h4>
-					<h4>Ranging from Raspberry Pi projects to robotics and to energy dashboards, Shihlin is excited to continue creating beautiful, data-driven applications.</h4>
-				</div>
-			</div>
-		</section><!-- /.cd-section -->
-
-		<!-- Portfolio Section -->
-		<section id="portfolio" class="cd-section">
-			<div class="row">
-				<div class="col-sm">
-					<h1>Portfolio</h1>
-					<img class="img-circle" src="images/pi-mirror.JPG" alt="pi-mirror">
-					<h2>Pi Mirror</h2>
-					<h4>Powered by Raspberry Pi, this smart mirror is a centralized information hub for air quality data, weather, and other customizable modules.</h4>
-					<h4>Launching Soon: 6/14/17</h4>
-				</div>
-			</div>
-		</section><!-- /.cd-section -->
-
-		<!-- Writing Section -->
-		<section id="writing" class="cd-section">
-			<div class="row">
-				<h1>Writing</h1>
-				<div class="col md 6">
-					<img class="img-circle" src="images/data-center.png" alt="data-center">
-					<h2>Data Center Efficiency Case Study</h2>
-					<button class="btn btn-info"><a href="http://www.vibrantcy.org/blog/2016/7/19/data-center-efficiency-case-studies">Read</button></a>
-				</div>
-			</div>
-		</section><!-- /.cd-section -->
-
-		<!-- Contact Section -->
-		<section id="contact" class="cd-section">
-			<div class="row">
-				<div class="col-md-offset-5 col-md-6">
-					<h1>Contact</h1>
-				</div>
-			</div>
-			<!-- BEGIN CONTACT FORM -->
-			<form id="contact-form" method="POST" action="/php/mailer.php">
-				<div class="form-group">
-					<label for="name">Name</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-user"></i>
+		<div class="wrapper">
+			<div class="main">
+				<!-- page 1-->
+				<section id="welcome">
+					<div class="overlay"></div>
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<img class="img-responsive" src="images/shihlin.png">
+									<h4><i class="fa fa-code fa-5px"></i> Software + Web Developer <i class="fa fa-code fa-5px"></i> </h4>
+								</div>
+							</div>
 						</div>
-						<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
 					</div>
-				</div>
-				<div class="form-group">
-					<label for="email">Email</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-envelope"></i>
+					<div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
+				</section>
+				<!-- page 2-->
+				<section id="page2">
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-6">
+									<h2 class="heading">About</h2>
+									<p class="lead">Hi, I'm Shihlin.</p>
+									<p>I am a full stack software and web developer, with special focus on creating sustainable, clean technology, innovative solutions.</p>
+									<p>After working in the energy efficiency industry from an analyst and research standpoint, my interest to be directly involved with software kept growing.</p>
+									<p>My discovery to coding/programming was a matter of time. With an inventive mind as long as I can remember, I joined a co-working space, Geekdom, a few years ago to learn more about entrepreneurship, participate in 3 Day Startup programs, and stay updated about the technology community. Most notably, my experience from Cleantech Open 2014 as a Semifinalist was the catalyst to delve more into the technology aspects of mitigating climate change. In 2017, I made the serious decision to advance my knowledge and enrolled in the Deep Dive Coding Bootcamp at the CNM STEMulus Center. Through this intensive program, I gained the confidence and technical skills to become a full stack developer.</p>
+								</div>
+								<div class="col-md-5 col-md-offset-1">
+									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
+								</div>
+							</div>
 						</div>
-						<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
 					</div>
-				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-pencil"></i>
-						</div>
-						<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message">Message</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-comment"></i>
-						</div>
-						<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
-					</div>
-				</div>
-				<!-- Google reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="6LduTSQUAAAAAK1T5Wr008EwURLbhCXxAwO3j_F9"></div>
+				</section>
+				<!-- page 3 - class section-gray adds gray background-->
+				<section id="page3" class="section-gray">
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row services">
+								<div class="col-md-12">
+									<h2 class="heading">Skills</h2>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="box">
+												<div class="icon"><i class="fa fa-desktop"></i></div>
+												<h4 class="heading">Backend Development</h4>
+												<p>PHP</p>
+												<p>MySQL</p>
+												<p>Apache</p>
+												<p>Linux</p>
+												<p>PHPUnit</p>
+												<p>Raspberry Pi 3</p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="box">
+												<div class="icon"><i class="fa fa-star"></i></div>
+												<h4 class="heading">Front End Development</h4>
+												<p>Angular</p>
+												<p>Bootstrap</p>
+												<p>CSS</p>
+												<p>HTML</p>
+												<p>jQuery</p>
+												<p>JavaScript</p>
+											</div>
+										</div>
+									</div>
 
-				<button class="btn btn-default" type="reset">Reset</button>
-				<button class="btn btn-info" type="submit">Submit</button>
-			</form>
-			<!-- END CONTACT FORM-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="page4">
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="heading">Portfolio</h2>
 
-			<!-- EMPTY FORM OUTPUT AREA -->
-			<div class="row">
-				<div class="col-md-6">
-					<div id="output-area"></div>
-				</div>
+									<div class="row">
+										<div class="col-md-6 text-center">
+
+												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive"></a>
+
+											<div class="caption">
+												<h3>Pi Mirror</h3>
+												<p>Powered by the Raspberry Pi, this customizable smart mirror displays important information such as weather, a Slack feed, and indoor air quality.</p>
+											</div>
+										</div>
+
+										<div class="col-md-6 text-center">
+
+												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive"></a>
+
+											<div class="caption">
+												<h3>Personal Website</h3>
+												<p></p>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Upcoming Section
+				<section id="page5" class="section-gray">
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="heading">Upcoming Section</h2>
+									<div class="row">
+										<div class="col-sm-6">
+											<p>....</p>
+											<p>....</p>
+										</div>
+										<div class="col-sm-6">
+											<p>... </p>
+											<p>... </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
+				<!-- page 6-->
+				<section id="page6">
+					<div class="content">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="heading">Contact</h2>
+									<div class="row">
+										<div class="col-md-6">
+
+											<!-- BEGIN CONTACT FORM -->
+											<form id="contact-form" method="POST" action="php/mailer.php">
+												<div class="form-group">
+													<label for="name">Name</label>
+													<div class="input-group">
+														<div class="input-group-addon">
+															<i class="fa fa-user"></i>
+														</div>
+														<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="email">Email</label>
+													<div class="input-group">
+														<div class="input-group-addon">
+															<i class="fa fa-envelope"></i>
+														</div>
+														<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="subject">Subject</label>
+													<div class="input-group">
+														<div class="input-group-addon">
+															<i class="fa fa-pencil"></i>
+														</div>
+														<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="message">Message</label>
+													<div class="input-group">
+														<div class="input-group-addon">
+															<i class="fa fa-comment"></i>
+														</div>
+														<textarea rows="5" id="message" name="message" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+													</div>
+												</div>
+												<!-- Google reCAPTCHA -->
+												<div class="g-recaptcha" data-sitekey="6LduTSQUAAAAAK1T5Wr008EwURLbhCXxAwO3j_F9"></div>
+
+												<button class="btn btn-default" type="reset">Reset</button>
+												<button class="btn btn-info" type="submit">Submit</button>
+											</form>
+											<!-- END CONTACT FORM-->
+
+											<!-- EMPTY FORM OUTPUT AREA -->
+											<div class="row">
+												<div class="col-md-6">
+													<div id="output-area"></div>
+												</div>
+											</div>
+
+										</div>
+										<div class="col-md-6">
+											<p class="social"><a href="#" title="" class="github"><i class="fa fa-github"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
+										</div>
+									</div>
+									<div class="row copyright">
+										<div class="col-md-6">
+											<p>&copy;2017 Shihlin Lu</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
-		</section>
-
+		</div>
 	</body>
 </html>
+

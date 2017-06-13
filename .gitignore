@@ -7,4 +7,4 @@ Gruntfile.js
 package.json
 
 # ignore mail configuration data
-**/php/mail-config.php
+public_html/php/mail-config.php
