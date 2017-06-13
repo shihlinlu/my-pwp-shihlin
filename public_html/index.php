@@ -152,13 +152,24 @@
 									<h2 class="heading">Portfolio</h2>
 
 									<div class="row">
-										<div class="col-md-6">
-											<h4 class="heading">Raspberry Pi Smart Mirror</h4>
-											<div class="box"><a href="#" title="smart-mirror"><img src="images/smart-mirror.jpg" alt="" class="img-responsive"></a></div>
+										<div class="col-md-6 text-center">
+
+												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive"></a>
+
+											<div class="caption">
+												<h3>Pi Mirror</h3>
+												<p>Powered by the Raspberry Pi, this customizable smart mirror displays important information such as weather, a Slack feed, and indoor air quality.</p>
+											</div>
 										</div>
-										<div class="col-md-6">
-											<h4 class="heading">Personal Website</h4>
-											<div class="box"><a href="#" title="pwp"><img src="images/smart-mirror.jpg" alt="" class="img-responsive"></a></div>
+
+										<div class="col-md-6 text-center">
+
+												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive"></a>
+
+											<div class="caption">
+												<h3>Personal Website</h3>
+												<p></p>
+											</div>
 										</div>
 
 									</div>

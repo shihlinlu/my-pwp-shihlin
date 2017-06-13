@@ -949,3 +949,8 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 
+.thumbnail {
+  max-height: 350px;
+  display: inline-block;
+  align-content: center;
+}
