@@ -156,13 +156,13 @@ p.social a.linkedin {
 /** Anurati Font **/
 @font-face {
   font-family: AnuratiRegular;
-  src: url('/fonts/AnuratiRegular.woff')
+  src: url('/fonts/AnuratiRegular.otf');
 }
 
 
 /** Welcome Section **/
 #welcome h1 {
-  font-family: AnuratiRegular, sans-serif;
+  font-family: AnuratiRegular;
   color: white;
   font-size: 90px;
   letter-spacing: 15px;

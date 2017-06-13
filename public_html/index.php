@@ -38,15 +38,15 @@
 		<link rel="stylesheet" href="css/style.css"/>
 
 		<!-- Google Font 1-->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 
 		<!-- Google Font 2-->
 		<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet" type='text/css'>
 
-		<link href="css/fonts/AnuratiRegular.woff" rel="stylesheet" type="text/css">
-
 		<!-- Google Font 3 -->
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+
+		<link href="https://fontmeme.com/fonts/anurati-font/" rel="stylesheet" type="text/css">
 
 		<!-- Font awesome animation -->
 		<link rel="stylesheet" href="css/font-awesome-animation.min.css">
@@ -71,15 +71,15 @@
 	<body>
 		<div class="wrapper">
 			<div class="main">
-				<!-- Welcome Section -->
+				<!-- page 1-->
 				<section id="welcome">
 					<div class="overlay"></div>
 					<div class="content">
 						<div class="container clearfix">
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2 col-sm-12">
-									<h1>Shihlin Lu</h1>
-									<h4><i class="fa fa-code fa-5px"></i> Software Developer <i class="fa fa-code fa-5px"></i> </h4>
+									<img class="img-responsive" src="images/shihlin.png">
+									<h4><i class="fa fa-code fa-5px"></i> Software + Web Developer <i class="fa fa-code fa-5px"></i> </h4>
 								</div>
 							</div>
 						</div>
@@ -93,9 +93,10 @@
 							<div class="row">
 								<div class="col-md-6">
 									<h2 class="heading">About</h2>
-									<p class="lead">Hello, I am Shihlin</p>
-									<p>I am a full stack developer passionate about creating software solutions, particularly revolving around sustainability and clean technology.</p>
-									<p>...</p>
+									<p class="lead">Hi, I'm Shihlin.</p>
+									<p>I am a full stack software and web developer, with special focus on creating sustainable, clean technology, innovative solutions.</p>
+									<p>After working in the energy efficiency industry from an analyst and research standpoint, my interest to be directly involved with software kept growing.</p>
+									<p>My discovery to coding/programming was a matter of time. With an inventive mind as long as I can remember, I joined a co-working space, Geekdom, a few years ago to learn more about entrepreneurship, participate in 3 Day Startup programs, and stay updated about the technology community. Most notably, my experience from Cleantech Open 2014 as a Semifinalist was the catalyst to delve more into the technology aspects of mitigating climate change. In 2017, I made the serious decision to advance my knowledge and enrolled in the Deep Dive Coding Bootcamp at the CNM STEMulus Center. Through this intensive program, I gained the confidence and technical skills to become a full stack developer.</p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
@@ -112,23 +113,32 @@
 								<div class="col-md-12">
 									<h2 class="heading">Skills</h2>
 									<div class="row">
-										<div class="col-sm-4">
+										<div class="col-md-6">
 											<div class="box">
 												<div class="icon"><i class="fa fa-desktop"></i></div>
-												<h4 class="heading">LAMP Stack</h4>
-												<p></p>
+												<h4 class="heading">Backend Development</h4>
+												<p>PHP</p>
+												<p>MySQL</p>
+												<p>Apache</p>
+												<p>Linux</p>
+												<p>PHPUnit</p>
+												<p>Raspberry Pi 3</p>
 											</div>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-md-6">
 											<div class="box">
-												<div class="icon"><i class="fa fa-desktop"></i></div>
+												<div class="icon"><i class="fa fa-star"></i></div>
 												<h4 class="heading">Front End Development</h4>
-												<p></p>
-											</div>
-
+												<p>Angular</p>
+												<p>Bootstrap</p>
+												<p>CSS</p>
+												<p>HTML</p>
+												<p>jQuery</p>
+												<p>JavaScript</p>
 											</div>
 										</div>
 									</div>
+
 								</div>
 							</div>
 						</div>
@@ -140,10 +150,15 @@
 							<div class="row">
 								<div class="col-md-12">
 									<h2 class="heading">Portfolio</h2>
-									<p class="text-center"></p>
+
 									<div class="row">
-										<div class="col-sm-4">
-											<div class="box"><a href="#" title=""><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div>
+										<div class="col-md-6">
+											<h4 class="heading">Raspberry Pi Smart Mirror</h4>
+											<div class="box"><a href="#" title="smart-mirror"><img src="images/smart-mirror.jpg" alt="" class="img-responsive"></a></div>
+										</div>
+										<div class="col-md-6">
+											<h4 class="heading">Personal Website</h4>
+											<div class="box"><a href="#" title="pwp"><img src="images/smart-mirror.jpg" alt="" class="img-responsive"></a></div>
 										</div>
 
 									</div>
@@ -152,25 +167,29 @@
 						</div>
 					</div>
 				</section>
-				<!-- page 5-->
+				<!-- Upcoming Section
 				<section id="page5" class="section-gray">
 					<div class="content">
 						<div class="container clearfix">
 							<div class="row">
 								<div class="col-md-12">
-									<h2 class="heading">In the Tech Community</h2>
+									<h2 class="heading">Upcoming Section</h2>
 									<div class="row">
 										<div class="col-sm-6">
-											<p>Data Center Efficiency </p>
-											<p>Link goes here</p>
+											<p>....</p>
+											<p>....</p>
+										</div>
+										<div class="col-sm-6">
+											<p>... </p>
+											<p>... </p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section><!--/.writing section-->
-				<!-- Contact Section -->
+				</section> -->
+				<!-- page 6-->
 				<section id="page6">
 					<div class="content">
 						<div class="container clearfix">
@@ -179,8 +198,9 @@
 									<h2 class="heading">Contact</h2>
 									<div class="row">
 										<div class="col-md-6">
+
 											<!-- BEGIN CONTACT FORM -->
-											<form id="contact-form" method="POST" action="/php/mailer.php">
+											<form id="contact-form" method="POST" action="php/mailer.php">
 												<div class="form-group">
 													<label for="name">Name</label>
 													<div class="input-group">
@@ -224,9 +244,17 @@
 												<button class="btn btn-info" type="submit">Submit</button>
 											</form>
 											<!-- END CONTACT FORM-->
+
+											<!-- EMPTY FORM OUTPUT AREA -->
+											<div class="row">
+												<div class="col-md-6">
+													<div id="output-area"></div>
+												</div>
+											</div>
+
 										</div>
 										<div class="col-md-6">
-											<p class="social"><a href="#" title="" class="github"><i class="fa fa-github fa-lg"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
+											<p class="social"><a href="#" title="" class="github"><i class="fa fa-github"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
 										</div>
 									</div>
 									<div class="row copyright">
