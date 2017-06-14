@@ -265,7 +265,7 @@
 
 										</div>
 										<div class="col-md-6">
-											<p class="social"><a href="#" title="" class="github"><i class="fa fa-github"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
+											<p class="social"><a href="https://github.com/shihlinlu" target="_blank" title="" class="github"><i class="fa fa-github"></i></a><a href="https://linkedin.com/in/shihlinlu" target="_blank" title="" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
 										</div>
 									</div>
 									<div class="row copyright">
