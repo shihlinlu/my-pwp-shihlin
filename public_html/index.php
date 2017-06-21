@@ -96,7 +96,7 @@
 									<p class="lead">Hi, I'm Shihlin.</p>
 									<p>I am a full stack software and web developer, with special focus on creating sustainable, clean technology, innovative solutions.</p>
 									<p>After working in the energy efficiency industry from an analyst and research standpoint, my interest to be directly involved with software kept growing.</p>
-									<p>My discovery to coding/programming was a matter of time. With an inventive mind as long as I can remember, I joined a co-working space, Geekdom, a few years ago to learn more about entrepreneurship, participate in 3 Day Startup programs, and stay updated about the technology community. Most notably, my experience from Cleantech Open 2014 as a Semifinalist was the catalyst to delve more into the technology aspects of mitigating climate change. In 2017, I made the serious decision to advance my knowledge and enrolled in the Deep Dive Coding Bootcamp at the CNM STEMulus Center. Through this intensive program, I gained the confidence and technical skills to become a full stack developer.</p>
+									<p>My discovery to coding/programming was a matter of time. With an inventive mind as long as I can remember, I joined a co-working space a few years ago to learn more about entrepreneurship, participate in 3 Day Startup programs, and stay updated about the technology community. Most notably, my experience from Cleantech Open 2014 as a Semifinalist was the catalyst to delve more into the technology aspects of mitigating climate change. In 2017, I made the serious decision to advance my knowledge and enrolled in the Deep Dive Coding Bootcamp at the CNM STEMulus Center. Through this intensive program, I gained the confidence and technical skills to become a full stack developer.</p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
@@ -123,6 +123,7 @@
 												<p>Linux</p>
 												<p>PHPUnit</p>
 												<p>Raspberry Pi 3</p>
+												<p>Python</p>
 											</div>
 										</div>
 										<div class="col-md-6">
