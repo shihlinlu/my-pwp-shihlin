@@ -61,7 +61,7 @@
 		<link rel="shortcut icon" href="favicon.png">
 
 		<!-- Javascript files-->
-		<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="js/jquery-3.0.min.js"><\/script>')</script>
 		<script src="js/jquery.onepage-scroll.js"></script>
 		<script src="js/front.js"></script>
 
