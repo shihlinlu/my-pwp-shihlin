@@ -842,7 +842,10 @@ h3,
 }
 p {
   margin: 0 0 22px;
+  font-weight: bold;
 }
+
+
 .lead {
   margin-bottom: 22px;
   font-size: 18px;

@@ -106,10 +106,10 @@
 									<p id="hi" class="lead"></p>
 									<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
 									<script src="js/typeit.js"></script>
-
-									<p>I am a full stack software and web developer, with special focus on creating sustainable, clean technology, innovative solutions.</p>
-									<p>After working in the energy efficiency industry from an analyst and research standpoint, my interest to be directly involved with software kept growing.</p>
-									<p>My discovery to coding/programming was a matter of time. With an inventive mind as long as I can remember, I joined a co-working space a few years ago to learn more about entrepreneurship, participate in 3 Day Startup programs, and stay updated about the technology community. Most notably, my experience from Cleantech Open 2014 as a Semifinalist was the catalyst to delve more into the technology aspects of mitigating climate change. In 2017, I made the serious decision to advance my knowledge and enrolled in the Deep Dive Coding Bootcamp at the CNM STEMulus Center. Through this intensive program, I gained the confidence and technical skills to become a full stack developer.</p>
+									<p>Brainstorm. Invent. Prototype. Build. Test. Launch. --- These are the essential steps for any one to transform an idea into a tangible solution, whether physical or digital.</p>
+									<p>As a full stack developer, creating software and web applications are unique, transformative experiences to solve problems of varying complexities.</p>
+									<p>I was formerly an energy analyst and studied sustainable management. My reason for making a big leap to the software industry? Quite simply, my tireless brain generates more ideas for effective solutions that only being a user of software became unsatisfactory. I approach application development in a logical and efficient way first; design follows afterwards as the bind between data, functionality, and smooth user experience.</p>
+									<p>My passions/interests: sustainability, cleantech, technology, artificial intelligence, machine learning, futurism.</p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
@@ -157,7 +157,9 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section><!--/.Skills -->
+
+				<!-- Portfolio -->
 				<section id="page4">
 					<div class="content">
 						<div class="container clearfix">
