@@ -106,7 +106,7 @@
 									<p id="hi" class="lead"></p>
 									<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
 									<script src="js/typeit.js"></script>
-									<p>Brainstorm. Invent. Prototype. Build. Test. Launch. --- These are the essential steps for any one to transform an idea into a tangible solution, whether physical or digital.</p>
+									<p>Brainstorm. Invent. Prototype. Build. Test. Launch. These are the essential steps for any one to transform an idea into a tangible solution, whether physical or digital.</p>
 									<p>As a full stack developer, creating software and web applications are unique, transformative experiences to solve problems of varying complexities.</p>
 									<p>I was formerly an energy analyst and studied sustainable management. My reason for making a big leap to the software industry? Quite simply, my tireless brain generates more ideas for effective solutions that only being a user of software became unsatisfactory. I approach application development in a logical and efficient way first; design follows afterwards as the bind between data, functionality, and smooth user experience.</p>
 									<p>My passions/interests: sustainability, cleantech, technology, artificial intelligence, machine learning, futurism.</p>
@@ -170,7 +170,7 @@
 									<div class="row">
 										<div class="col-md-6 text-center">
 
-												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive"></a>
+												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive">
 
 											<div class="caption">
 												<h3>Pi Mirror</h3>
@@ -180,7 +180,7 @@
 
 										<div class="col-md-6 text-center">
 
-												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive"></a>
+												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive">
 
 											<div class="caption">
 												<h3>Personal Website</h3>
