@@ -1,3 +1,3 @@
-$('.example1').typeIt({
-	strings: ['I am a software developer.']
+$('#example1').typeIt({
+	strings: ['Testing.', 'Testing.', 'Testing']
 });
