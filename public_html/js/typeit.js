@@ -1,3 +1,3 @@
 $('#example1').typeIt({
-	strings: ['Testing.', 'Testing.', 'Testing']
-});
+ patch-1
+	strings: ['I am a software developer.']
