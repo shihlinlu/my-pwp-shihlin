@@ -54,7 +54,7 @@
 		<!-- One-page scroll stylesheet-->
 		<link rel="stylesheet" href="css/onepage-scroll.css">
 
-		<!-- theme stylesheet-->
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
 
 		<!-- Favicon-->
@@ -79,7 +79,11 @@
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2 col-sm-12">
 									<img class="img-responsive" src="images/shihlin.png">
-									<h4><i class="fa fa-code fa-5px"></i> Software + Web Developer <i class="fa fa-code fa-5px"></i> </h4>
+									<h4><i class="fa fa-code fa-5px"></i> Software + Web Developer <i class="fa fa-code fa-5px"></i></h4>
+									<!-- TypeIt -->
+									<p id="example1"></p>
+									<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
+									<script src="js/typeit.js"></script>
 								</div>
 							</div>
 						</div>
