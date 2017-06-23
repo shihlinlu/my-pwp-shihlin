@@ -224,7 +224,12 @@
 								<div class="col-md-12">
 									<h2 class="heading">Contact</h2>
 									<div class="row">
-										<div class="col-md-6">
+										<!-- Social Media Links -->
+										<div class="col-md-4 col-md-offset-4">
+											<p class="social"><a href="https://github.com/shihlinlu" target="_blank" title="" class="github"><i class="fa fa-github"></i></a><a href="https://linkedin.com/in/shihlinlu" target="_blank" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
+										</div><!--/.social links-->
+										<!-- Contact Form Section -->
+										<div class="col-md-6 col-md-offset-3">
 
 											<!-- BEGIN CONTACT FORM -->
 											<form id="contact-form" method="POST" action="php/mailer.php">
@@ -280,12 +285,10 @@
 											</div>
 
 										</div>
-										<div class="col-md-6">
-											<p class="social"><a href="https://github.com/shihlinlu" target="_blank" title="" class="github"><i class="fa fa-github"></i></a><a href="https://linkedin.com/in/shihlinlu" target="_blank" title="" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
-										</div>
+
 									</div>
 									<div class="row copyright">
-										<div class="col-md-6">
+										<div class="col-md-4 col-md-offset-4">
 											<p>&copy;2017 Shihlin Lu</p>
 										</div>
 									</div>

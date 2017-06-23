@@ -138,10 +138,9 @@ p.social a.linkedin {
 .copyright {
   margin-top: 40px;
   color: #999999;
-  font-style: italic;
 }
 .copyright p.credit {
-  text-align: right;
+  text-align: center;
 }
 .copyright p.credit a {
   color: #999999;
@@ -153,11 +152,11 @@ p.social a.linkedin {
   color: #fff;
 }
 
-/** Anurati Font **/
+/** Anurati Font
 @font-face {
   font-family: AnuratiRegular;
   src: url('/fonts/AnuratiRegular.otf');
-}
+} **/
 
 
 /** Welcome Section **/
