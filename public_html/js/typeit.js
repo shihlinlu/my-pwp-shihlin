@@ -2,11 +2,13 @@ $('#welcome1').typeIt({
 	strings: ['Software Developer.','Web Developer.', 'Welcome to my digital space.'],
 	speed: 125,
 	breakLines: false,
-	autoStart: false
+	autoStart: false,
+	cursor: false
 });
 
 $('#hi').typeIt({
-	speed: 125
+	speed: 125,
+	cursor: false
 
 })
 	.tiType('Bonjour,')
