@@ -90,51 +90,29 @@ h4.heading:after {
     transform: translate(0, 0);
   }
 }
-.services .box {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.services .icon {
-  width: 40px;
-  height: 40px;
-  border: solid 1px #555555;
-  margin: 0 auto;
-  border-radius: 20px;
-  text-align: center;
-  line-height: 40px;
-}
+
 .contact-form {
   margin-bottom: 40px;
 }
-p.social {
+
+/** Social icons **/
+.list-inline {
   text-align: center;
-  margin-top: 20px;
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
 }
-p.social a {
-  margin: 0 10px 0 0;
-  color: #fff;
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  border-radius: 13px;
-  line-height: 26px;
-  font-size: 15px;
-  text-align: center;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  vertical-align: bottom;
+
+.list-inline a {
+  color: #0077B5;
+  background-color: transparent;
 }
-p.social a i {
-  vertical-align: bottom;
-  line-height: 26px;
+
+.list-inline ul {
+  margin-bottom: 20px;
 }
-p.social a.github {
-  background-color: black;
-}
-p.social a.linkedin {
-  background-color: #0077B5;
-}
+
+/** Copyright section **/
 .copyright {
   margin-top: 40px;
   color: #999999;
@@ -145,12 +123,6 @@ p.social a.linkedin {
 .copyright p.credit a {
   color: #999999;
 }
-#welcome {
-  text-align: center;
-  background: url('../images/intro.jpg') center center no-repeat;
-  background-size: cover;
-  color: #fff;
-}
 
 /** Anurati Font
 @font-face {
@@ -159,9 +131,16 @@ p.social a.linkedin {
 } **/
 
 
-/** Welcome Section **/
+/** Welcome Section (top) **/
+
+#welcome {
+  text-align: center;
+  background: url('../images/intro.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 #welcome h1 {
-  font-family: AnuratiRegular;
   color: white;
   font-size: 90px;
   letter-spacing: 15px;

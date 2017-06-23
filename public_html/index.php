@@ -34,8 +34,8 @@
 		<!-- Latest compiled and minifed JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css"/>
+		<!-- Custom CSS -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 
 		<!-- Google Font 1-->
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
@@ -53,9 +53,6 @@
 
 		<!-- One-page scroll stylesheet-->
 		<link rel="stylesheet" href="css/onepage-scroll.css">
-
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
 
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="favicon.png">
@@ -226,11 +223,24 @@
 									<div class="row">
 										<!-- Social Media Links -->
 										<div class="col-md-4 col-md-offset-4">
-											<p class="social"><a href="https://github.com/shihlinlu" target="_blank" title="" class="github"><i class="fa fa-github"></i></a><a href="https://linkedin.com/in/shihlinlu" target="_blank" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
+											<ul class="list-inline">
+												<li>
+													<a href="https://github.com/shihlinlu" target="_blank">
+														<i class="fa fa-github fa-fw fa-2x" aria-hidden="true">
+														</i>
+													</a>
+												</li>
+												<a href="https://linkedin.com/in/shihlinlu" target="_blank">
+													<i class="fa fa-linkedin fa-fw fa-2x" aria-hidden="true">
+													</i>
+												</a>
+												<li>
+
+												</li>
+											</ul>
 										</div><!--/.social links-->
 										<!-- Contact Form Section -->
 										<div class="col-md-6 col-md-offset-3">
-
 											<!-- BEGIN CONTACT FORM -->
 											<form id="contact-form" method="POST" action="php/mailer.php">
 												<div class="form-group">
