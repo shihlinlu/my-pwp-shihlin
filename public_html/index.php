@@ -119,13 +119,13 @@
 				<section id="page3" class="section-gray">
 					<div class="content">
 						<div class="container clearfix">
-							<div class="row services">
+							<div class="row skills">
 								<div class="col-md-12">
 									<h2 class="heading">Skills</h2>
 									<div class="row">
 										<div class="col-md-6">
 											<div class="box">
-												<div class="icon"><i class="fa fa-desktop"></i></div>
+												<div class="icon"><i class="fa fa-database"></i></div>
 												<h4 class="heading">Backend Development</h4>
 												<p>PHP</p>
 												<p>MySQL</p>
@@ -138,7 +138,7 @@
 										</div>
 										<div class="col-md-6">
 											<div class="box">
-												<div class="icon"><i class="fa fa-star"></i></div>
+												<div class="icon"><i class="fa fa-desktop"></i></div>
 												<h4 class="heading">Front End Development</h4>
 												<p>Angular</p>
 												<p>Bootstrap</p>
