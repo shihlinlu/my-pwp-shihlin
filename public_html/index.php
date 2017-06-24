@@ -46,7 +46,7 @@
 		<!-- Google Font 3 -->
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
 
-		<link href="https://fontmeme.com/fonts/anurati-font/" rel="stylesheet" type="text/css">
+		<link href="https://fontmeme.com/fonts/anurati-font/" rel="stylesheet" type="text/html">
 
 		<!-- Font awesome animation -->
 		<link rel="stylesheet" href="css/font-awesome-animation.min.css">
@@ -58,7 +58,7 @@
 		<link rel="shortcut icon" href="favicon.png"> -->
 
 		<!-- Javascript files-->
-		<script>window.jQuery || document.write('<script src="js/jquery-3.0.min.js"><\/script>')</script>
+
 		<script src="js/jquery.onepage-scroll.js"></script>
 		<script src="js/front.js"></script>
 
