@@ -54,8 +54,8 @@
 		<!-- One-page scroll stylesheet-->
 		<link rel="stylesheet" href="css/onepage-scroll.css">
 
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="favicon.png">
+		<!-- Favicon (temporarily disabled)
+		<link rel="shortcut icon" href="favicon.png"> -->
 
 		<!-- Javascript files-->
 		<script>window.jQuery || document.write('<script src="js/jquery-3.0.min.js"><\/script>')</script>
