@@ -99,14 +99,15 @@
 							<div class="row">
 								<div class="col-md-6">
 									<h2 class="heading">About</h2>
-									<!-- Type it: Hi -->
-									<p id="hi" class="lead"></p>
+									<!-- Type it: About -->
+									<p id="about" class="lead"></p>
 									<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
 									<script src="js/typeit.js"></script>
-									<p>Brainstorm. Invent. Prototype. Build. Test. Launch. These are the essential steps for any one to transform an idea into a tangible solution, whether physical or digital.</p>
-									<p>As a full stack developer, creating software and web applications are unique, transformative experiences to solve problems of varying complexities.</p>
-									<p>I was formerly an energy analyst and studied sustainable management. My reason for making a big leap to the software industry? Quite simply, my tireless brain generates more ideas for effective solutions that only being a user of software became unsatisfactory. I approach application development in a logical and efficient way first; design follows afterwards as the bind between data, functionality, and smooth user experience.</p>
-									<p>My passions/interests: sustainability, cleantech, technology, artificial intelligence, machine learning, futurism.</p>
+									<p>I'm a software developer.</p>
+									<p>I enjoy solving complex problems.</p>
+									<p>I am keen on elegant, modern, and functional design.</p>
+									<p>I am passionate about sustainability and technology.</p>
+									<p></p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
@@ -127,25 +128,28 @@
 											<div class="box">
 												<div class="icon"><i class="fa fa-database"></i></div>
 												<h4 class="heading">Backend Development</h4>
+												<p>Python</p>
+												<p>Django</p>
 												<p>PHP</p>
+												<p>PostgreSQL</p>
 												<p>MySQL</p>
 												<p>Apache</p>
 												<p>Linux</p>
 												<p>PHPUnit</p>
 												<p>Raspberry Pi 3</p>
-												<p>Python</p>
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="box">
 												<div class="icon"><i class="fa fa-desktop"></i></div>
 												<h4 class="heading">Front End Development</h4>
+												<p>React</p>
+												<p>JavaScript</p>
 												<p>Angular</p>
 												<p>Bootstrap</p>
 												<p>CSS</p>
 												<p>HTML</p>
 												<p>jQuery</p>
-												<p>JavaScript</p>
 											</div>
 										</div>
 									</div>
