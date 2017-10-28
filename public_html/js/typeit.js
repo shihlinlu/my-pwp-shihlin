@@ -6,14 +6,6 @@ $('#welcome1').typeIt({
 	cursor: false
 });
 
-$('#about').typeIt({
-	strings: ['Hi, I\'m\ Shihlin.'],
-	speed: 125,
-	cursor: false
-});
-
-
-
 // $('#hi').typeIt({
 // 	speed: 125,
 // 	cursor: false

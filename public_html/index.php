@@ -101,13 +101,9 @@
 									<h2 class="heading">About</h2>
 									<!-- Type it: About -->
 									<p id="about" class="lead"></p>
-									<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js"></script>
-									<script src="js/typeit.js"></script>
-									<p>I'm a software developer.</p>
-									<p>I enjoy solving complex problems.</p>
-									<p>I am keen on elegant, modern, and functional design.</p>
-									<p>I am passionate about sustainability and technology.</p>
-									<p></p>
+									<p>Technology and futurism has been an interest of mine since I was young. Technology profoundly affects our planet and society; without it, we would not be able to observe revolutionary inventions such as the Hyperloop or Teslas. </p>
+										<p>My background is in sustainable management and I have previously worked as an energy efficiency analyst. In early 2017, I made a huge decision to change my career path to become a software developer. While I am still highly passionate about sustainability, I believe that I can make an exponential impact by redirecting my focus and new skills through technology.</p>
+									<p>As a full stack software developer, I am constantly thinking of ways to create modern, powerful and efficient solutions. The problem solving nature in programming is highly rewarding to me, even if it is a simple function. I have experience in various programming technologies such as Django, Python, JavaScript, React, PostgreSQL, and more. When I am not thinking or programming, I also enjoy competitive running, crossfit, hiking, snowboarding, and traveling.</p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
