@@ -54,8 +54,18 @@
 		<!-- One-page scroll stylesheet-->
 		<link rel="stylesheet" href="css/onepage-scroll.css">
 
-		<!-- Favicon (temporarily disabled)
-		<link rel="shortcut icon" href="favicon.png"> -->
+		<!-- Favicon (temporarily disabled) -->
+<!--		<link rel="shortcut icon" href="/favicon.ico">-->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108799966-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-108799966-1');
+		</script>
 
 		<!-- Javascript files-->
 
@@ -101,9 +111,10 @@
 									<h2 class="heading">About</h2>
 									<!-- Type it: About -->
 									<p id="about" class="lead"></p>
-									<p>Technology and futurism has been an interest of mine since I was young. Technology profoundly affects our planet and society; without it, we would not be able to observe revolutionary inventions such as the Hyperloop or Teslas. </p>
-										<p>My background is in sustainable management and I have previously worked as an energy efficiency analyst. In early 2017, I made a huge decision to change my career path to become a software developer. While I am still highly passionate about sustainability, I believe that I can make an exponential impact by redirecting my focus and new skills through technology.</p>
-									<p>As a full stack software developer, I am constantly thinking of ways to create modern, powerful and efficient solutions. The problem solving nature in programming is highly rewarding to me, even if it is a simple function. I have experience in various programming technologies such as Django, Python, JavaScript, React, PostgreSQL, and more. When I am not programming, I also enjoy competitive running, crossfit, hiking, snowboarding, and traveling.</p>
+
+									<p>Shihlin has a passion for clean technology solutions utilizing the power of software engineering/development. In 2017, she undertook an <a href="https://deepdivecoding.com/sucess-stories/">intensive coding bootcamp</a>, which solidified her desire to work as a software developer. She has experience in a variety of programming languages including Python, JavaScript (React, Redux), PostgreSQL, and more. In her free time, Shihlin enjoys improving her programming knowledge, running, crossfit, hiking, snowboarding, and travelling.</p>
+
+									<p>To view selected portfolio projects and resume, please view the links below.</p>
 								</div>
 								<div class="col-md-5 col-md-offset-1">
 									<p><img src="images/about-shihlin.jpg" alt="" class="img-responsive img-circle"></p>
@@ -113,86 +124,85 @@
 					</div>
 				</section>
 				<!-- page 3 - class section-gray adds gray background-->
-				<section id="page3" class="section-gray">
-					<div class="content">
-						<div class="container clearfix">
-							<div class="row skills">
-								<div class="col-md-12">
-									<h2 class="heading">Skills</h2>
-									<div class="row">
-										<div class="col-md-6">
-											<div class="box">
-												<div class="icon"><i class="fa fa-database"></i></div>
-												<h4 class="heading">Backend Development</h4>
-												<p>Python</p>
-												<p>Django</p>
-												<p>PHP</p>
-												<p>PostgreSQL</p>
-												<p>MySQL</p>
-												<p>Apache</p>
-												<p>Linux</p>
-												<p>PHPUnit</p>
-												<p>Raspberry Pi 3</p>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="box">
-												<div class="icon"><i class="fa fa-desktop"></i></div>
-												<h4 class="heading">Front End Development</h4>
-												<p>React</p>
-												<p>JavaScript</p>
-												<p>StyledComponents</p>
-												<p>Jest</p>
-												<p>Angular</p>
-												<p>Bootstrap</p>
-												<p>CSS</p>
-												<p>HTML</p>
-												<p>jQuery</p>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section><!--/.Skills -->
+<!--				<section id="page3" class="section-gray">-->
+<!--					<div class="content">-->
+<!--						<div class="container clearfix">-->
+<!--							<div class="row skills">-->
+<!--								<div class="col-md-12">-->
+<!--									<h2 class="heading">Skills</h2>-->
+<!--									<div class="row">-->
+<!--										<div class="col-md-6">-->
+<!--											<div class="box">-->
+<!--												<div class="icon"><i class="fa fa-database"></i></div>-->
+<!--												<h4 class="heading">Backend Development</h4>-->
+<!--												<p>Python</p>-->
+<!--												<p>Django</p>-->
+<!--												<p>PHP</p>-->
+<!--												<p>PostgreSQL</p>-->
+<!--												<p>MySQL</p>-->
+<!--												<p>Apache</p>-->
+<!--												<p>Linux</p>-->
+<!--												<p>PHPUnit</p>-->
+<!--												<p>Raspberry Pi 3</p>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="col-md-6">-->
+<!--											<div class="box">-->
+<!--												<div class="icon"><i class="fa fa-desktop"></i></div>-->
+<!--												<h4 class="heading">Front End Development</h4>-->
+<!--												<p>React</p>-->
+<!--												<p>JavaScript</p>-->
+<!--												<p>Styled Components</p>-->
+<!--												<p>Jest</p>-->
+<!--												<p>Bootstrap</p>-->
+<!--												<p>CSS</p>-->
+<!--												<p>HTML</p>-->
+<!--												<p>jQuery</p>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!---->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</section><!--/.Skills -->-->
 
 				<!-- Portfolio -->
-				<section id="page4">
-					<div class="content">
-						<div class="container clearfix">
-							<div class="row">
-								<div class="col-md-12">
-									<h2 class="heading">Portfolio</h2>
-
-									<div class="row">
-										<div class="col-md-6 text-center">
-
-												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive">
-
-											<div class="caption">
-												<h3>Pi Mirror</h3>
-												<p>Powered by the Raspberry Pi, this customizable smart mirror displays important information such as weather, a Slack feed, and indoor air quality.</p>
-											</div>
-										</div>
-
-										<div class="col-md-6 text-center">
-
-												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive">
-
-											<div class="caption">
-												<h3>Personal Website</h3>
-												<p></p>
-											</div>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+<!--				<section id="page4">-->
+<!--					<div class="content">-->
+<!--						<div class="container clearfix">-->
+<!--							<div class="row">-->
+<!--								<div class="col-md-12">-->
+<!--									<h2 class="heading">Portfolio</h2>-->
+<!---->
+<!--									<div class="row">-->
+<!--										<div class="col-md-6 text-center">-->
+<!---->
+<!--												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive">-->
+<!---->
+<!--											<div class="caption">-->
+<!--												<h3>Pi Mirror</h3>-->
+<!--												<p>Powered by the Raspberry Pi, this customizable smart mirror displays important information such as weather, a Slack feed, and indoor air quality.</p>-->
+<!--											</div>-->
+<!--										</div>-->
+<!---->
+<!--										<div class="col-md-6 text-center">-->
+<!---->
+<!--												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive">-->
+<!---->
+<!--											<div class="caption">-->
+<!--												<h3>Personal Website</h3>-->
+<!--												<p></p>-->
+<!--											</div>-->
+<!--										</div>-->
+<!---->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</section>-->
 				<!-- Upcoming Section
 				<section id="page5" class="section-gray">
 					<div class="content">
@@ -232,12 +242,23 @@
 														</i>
 													</a>
 												</li>
-												<a href="https://linkedin.com/in/shihlinlu" target="_blank">
-													<i class="fa fa-linkedin fa-fw fa-2x" aria-hidden="true">
-													</i>
-												</a>
 												<li>
-
+													<a href="https://linkedin.com/in/shihlinlu" target="_blank">
+														<i class="fa fa-linkedin fa-fw fa-2x" aria-hidden="true">
+														</i>
+													</a>
+												</li>
+												<li>
+													<a href="https://medium.com/@runsustainably" target="_blank">
+														<i class="fa fa-medium fa-fw fa-2x" aria-hidden="true">
+														</i>
+													</a>
+												</li>
+												<li>
+													<a href="https://shihlinlu.wordpress.com/" target="_blank">
+														<i class="fa fa-wordpress fa-fw fa-2x" aria-hidden="true">
+														</i>
+													</a>
 												</li>
 											</ul>
 										</div><!--/.social links-->
