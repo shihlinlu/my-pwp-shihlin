@@ -78,7 +78,7 @@
 	<body>
 		<div class="wrapper">
 			<div class="main">
-				<!-- page 1-->
+
 				<section id="welcome">
 					<div class="overlay"></div>
 					<div class="content">
@@ -102,7 +102,7 @@
 					</div>
 					<div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
 				</section>
-				<!-- page 2-->
+
 				<section id="page2">
 					<div class="content">
 						<div class="container clearfix">
@@ -123,109 +123,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- page 3 - class section-gray adds gray background-->
-<!--				<section id="page3" class="section-gray">-->
-<!--					<div class="content">-->
-<!--						<div class="container clearfix">-->
-<!--							<div class="row skills">-->
-<!--								<div class="col-md-12">-->
-<!--									<h2 class="heading">Skills</h2>-->
-<!--									<div class="row">-->
-<!--										<div class="col-md-6">-->
-<!--											<div class="box">-->
-<!--												<div class="icon"><i class="fa fa-database"></i></div>-->
-<!--												<h4 class="heading">Backend Development</h4>-->
-<!--												<p>Python</p>-->
-<!--												<p>Django</p>-->
-<!--												<p>PHP</p>-->
-<!--												<p>PostgreSQL</p>-->
-<!--												<p>MySQL</p>-->
-<!--												<p>Apache</p>-->
-<!--												<p>Linux</p>-->
-<!--												<p>PHPUnit</p>-->
-<!--												<p>Raspberry Pi 3</p>-->
-<!--											</div>-->
-<!--										</div>-->
-<!--										<div class="col-md-6">-->
-<!--											<div class="box">-->
-<!--												<div class="icon"><i class="fa fa-desktop"></i></div>-->
-<!--												<h4 class="heading">Front End Development</h4>-->
-<!--												<p>React</p>-->
-<!--												<p>JavaScript</p>-->
-<!--												<p>Styled Components</p>-->
-<!--												<p>Jest</p>-->
-<!--												<p>Bootstrap</p>-->
-<!--												<p>CSS</p>-->
-<!--												<p>HTML</p>-->
-<!--												<p>jQuery</p>-->
-<!--											</div>-->
-<!--										</div>-->
-<!--									</div>-->
-<!---->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</section><!--/.Skills -->-->
 
-				<!-- Portfolio -->
-<!--				<section id="page4">-->
-<!--					<div class="content">-->
-<!--						<div class="container clearfix">-->
-<!--							<div class="row">-->
-<!--								<div class="col-md-12">-->
-<!--									<h2 class="heading">Portfolio</h2>-->
-<!---->
-<!--									<div class="row">-->
-<!--										<div class="col-md-6 text-center">-->
-<!---->
-<!--												<img src="images/smart-mirror.jpg" alt="" class="thumbnail img-responsive">-->
-<!---->
-<!--											<div class="caption">-->
-<!--												<h3>Pi Mirror</h3>-->
-<!--												<p>Powered by the Raspberry Pi, this customizable smart mirror displays important information such as weather, a Slack feed, and indoor air quality.</p>-->
-<!--											</div>-->
-<!--										</div>-->
-<!---->
-<!--										<div class="col-md-6 text-center">-->
-<!---->
-<!--												<img src="images/pwp.jpg" alt="" class="thumbnail img-responsive">-->
-<!---->
-<!--											<div class="caption">-->
-<!--												<h3>Personal Website</h3>-->
-<!--												<p></p>-->
-<!--											</div>-->
-<!--										</div>-->
-<!---->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</section>-->
-				<!-- Upcoming Section
-				<section id="page5" class="section-gray">
-					<div class="content">
-						<div class="container clearfix">
-							<div class="row">
-								<div class="col-md-12">
-									<h2 class="heading">Upcoming Section</h2>
-									<div class="row">
-										<div class="col-sm-6">
-											<p>....</p>
-											<p>....</p>
-										</div>
-										<div class="col-sm-6">
-											<p>... </p>
-											<p>... </p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> -->
-				<!-- page 6-->
 				<section id="page6">
 					<div class="content">
 						<div class="container clearfix">
